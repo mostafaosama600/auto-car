@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap Links -->
+    <link rel="stylesheet" href="bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.6.1-dist/js/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-4.6.1-dist/js/popper.min.js"></script>
+    <script src="bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+    <!-- Font Aweasome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- css File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fav Icon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>RIMAK</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-3 headerBg" style="height: 60px;">
+            <div class="col mb-4">
+                <div class="card-body text-white text-right">
+                    <div class="fixed-menuAgain">
+                        <img src="img/menu.png" class="fa-chevron-righttt" alt="">
+                        <ul>
+                          <button type="button" class="btn border bg-danger text-white" data-toggle="modal" data-target="#loginModel">تسجيل</button>
+                          <button type="button" class="btn border bg-danger text-white" data-toggle="modal" data-target="#signupModel">تسجيل الدخول</button>
+                            <li class="nav-item dropdown xxxx">
+                                <a class="nav-link" href="#">
+                                  <img src="img/setting.png" width="25" alt="">
+                                  منطقه العرض
+                                </a>
+                              </li>
+                              <li class="nav-item dropdown xxxx">
+                                <a class="nav-link" href="#">
+                                  <img src="img/setting.png" width="25" alt="">
+                                  تسوق بالسياره
+                                </a>
+                              </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><img src="img/setting.png" width="25" alt="">
+                                     التصميم الداخلي للسياره 
+                                    </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/setting.png" width="25" alt=""> الخارجيات 
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/setting.png" width="25" alt=""> اضواء السياره
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/setting.png" width="25" alt="">
+                                    تصفيف السياره
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/setting.png" width="25" alt="">
+                                    العنايه بالسياره
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/setting.png" width="25" alt="">
+                                    معدات ركوب الدراجه
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/setting.png" width="25" alt="">
+                                    ملحقات لوحه القياده
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown xxxx">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/setting.png" width="25" alt="">
+                                    اكسسوارات الدراجه
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item xxxx" href="#">Action</a>
+                                    <a class="dropdown-item xxxx" href="#">Another action</a>
+                                  </div>
+                                </li>
+                        </ul>
+                    </div>
+                    <ul class="Ulist text-left">
+                      <li class="text-left"><a href=""><img src="img/logo.png" alt=""></a></li>
+                      <button type="button" class="btn border text-white resPLogo" data-toggle="modal" data-target="#loginModel">تسجيل</button>
+                      <button type="button" class="btn border text-white resPLogo" data-toggle="modal" data-target="#signupModel">تسجيل الدخول</button>
+                  </ul>
+                </div>
+            </div>
+            <div class="col mb-4 resPSearch">
+                <div class="card-body text-white">
+                    <input class="form-control mr-sm-2" type="search" placeholder="البحث" aria-label="Search">
+                </div>
+            </div>
+            <div class="col mb-4 resPSearch">
+                <div class="card-body text-white">
+                    <ul class="Ulist">
+                        <li class="nav-item dropdown xxxx">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <img src="img/language.png" alt="">
+                            </a>
+                            <div class="dropdown-menu text-right text-dark" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item text-dark" href="#">العربيه</a>
+                              <a class="dropdown-item text-dark" href="#">الانجليزيه</a>
+                            </div>
+                          </li>
+                        <li class="nav-item dropdown xxxx">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <img src="img/profile.png" alt="">
+                            </a>
+                            <div class="dropdown-menu text-right text-dark" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item text-dark" href="#">السله</a>
+                              <a class="dropdown-item text-dark" href="#">الحساب</a>
+                              <a class="dropdown-item text-dark" href="#">الموقع</a>
+                              <a class="dropdown-item text-dark" href="#">تغيير كلمه المرور</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item text-dark" href="#">تسجيل الخروج</a>
+                            </div>
+                          </li>
+                        
+                        <li><a href="cartpage.html"><img src="img/add-cart.png" width="25px" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" style="color: #000; font-weight: 400;" href="#">تتجه الان :</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">| اغطيه جسم السياره  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">اغطيه مقاعد السياره</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">دواسات السياره</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">مظلات السياره</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">غطاء جسم الدراجه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">غطاء مقعد الدراجه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">اقنعه الوجه</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container RowProfile bg-white">
+        <div class="row row-cols-1 row-cols-md-4 text-right  ">
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="">الاسم الاول</label>
+                        <input  type="text" class="form-control"  placeholder="ادخل اسم المستخدم">
+                      </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="">الاسم الاخير</label>
+                        <input  type="text" class="form-control"  placeholder="ادخل اسم المستخدم">
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="">الدوله</label>
+                        <select class="form-control" id="">
+                          <option selected>فلسطين </option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                </div>
+            </div>
+            </div>
+            <div class="col mb-4">
+                  <div class="card-body">
+                      <div class="form-group">
+                        <label for="">المدينه</label>
+                        <input  type="text" class="form-control border"  placeholder="غزه">
+                    </div>
+                  </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                      <label for="">رقم الجوال</label>
+                      <input  type="tel" class="form-control"  placeholder="رقم الجوال">
+                  </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                      <label for="">كلمه المرور</label>
+                      <input  type="password" class="form-control"  placeholder=" كلمه المرور">
+                  </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                      <label for="">الرمز البريدي</label>
+                      <input  type="tel" class="form-control"  placeholder="700">
+                  </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                      <label for="">رمز البيت</label>
+                      <input  type="tel" class="form-control"  placeholder="00">
+                  </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                      <label for="">تاكيد كلمه المرور</label>
+                      <input  type="password" class="form-control"  placeholder="تاكيد كلمه المرور">
+                        <a href="">هل نسيت كلمه المرور</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card-body">
+                    <div class="form-group">
+                      <label for="">المحافظه</label>
+                      <input  type="email" class="form-control"  placeholder="الوسطي">
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mt-2">
+            <button class="btn btnCompos">تاكيد</button>
+        </div>
+        <br>
+    </div>
+    
+    <footer class="footerF">
+        <div class="containerF">
+            <hr class="w-100 bg-white">
+            <br>
+            <div class="rowF text-right">
+                <div class="footer-col">
+                    <h4>ريماك</h4>
+                    <ul>
+                        <li><a href="">سياسه الخصوصيه</a></li>
+                        <li><a href="">شروط البيع</a></li>
+                        <li><a href="">سياسه الالغاء</a></li>
+                        <li><a href="">سياسه العائدات</a></li>
+                        <li><a href="">سياسه الشحن</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>عن ريماك</h4>
+                    <ul>
+                        <li><a href="">معلومات عنا</a></li>
+                        <li><a href="">حياه مهنيه</a></li>
+                        <li><a href="">في الاخبار</a></li>
+                        <li><a href="">اتصل بنا</a></li>
+                        <li><a href="">مدونه</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>كن موزعا</h4>
+                    <ul>
+                        <li><a href="">كن موزعا</a></li>
+                        <li><a href="">الشركاء المنتسبين</a></li>
+                        <li><a href="">طلب بالجمله</a></li>
+                        <li><a href="">EMI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>تعليمات</h4>
+                    <ul>
+                        <li><a href="">ترتيب المسار</a></li>
+                        <li><a href="">ضمان المطالبه</a></li>
+                        <li><a href="">خيارات الدفع</a></li>
+                        <li><a href="">التعليمات</a></li>
+                        <li><a href="">خريطه الموقع</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <li><img src="img/logoRimak.png" class="w-100 imgFoter" alt=""></li>
+                </div>
+            </div>
+            <hr class="w-100 bg-white">
+        </div>
+        
+        <div class="rowF text-right">
+            <div class="socialLinFotter">
+                <ul>
+                    <li><img src="img/icons8-instagram-30.png" alt=""></li>
+                    <li><img src="img/icons8-youtube-30.png" alt=""></li>
+                    <li><img src="img/facb.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   </footer>
+
+   
+   
+   <div class="modal fade mt-5 pt-5 text-right" role="dialog" id="loginModel">
+    <div class="modal-dialog text-right">
+      
+      <div class="modal-content">
+        <div class="modal-header bglogNow">
+          <h3 class="modal-title" >تسجيل الدخول</h3>
+          <div>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+        </div>
+        <ul class="social-model-login">
+          <li><img src="img/facebookLogin.png" alt=""></li>
+          <li><img src="img/gmailLogin.png" alt=""></li>
+          <li><img src="img/gmailLogin.png" alt=""></li>
+        </ul>
+
+           <div class="modal-body">
+             <div class="form-group">
+              <input type="email" name="username" class="form-control" placeholder="البريد الإلكتروني">
+             </div>
+
+             <div class="form-group">
+               <input type="password" name="password" class="form-control" placeholder="كلمه السر">
+              </div>
+              <a href=""  type="button" class="text-dark" data-toggle="modal" data-target="#forgetpassModel">هل نسيت كلمه المرور؟</a>
+           </div>
+
+           <div class="modal-footer">
+            <button type="submit" class="btn LogInNow w-100">تسجيل الدخول</button>
+           </div>
+       </div>
+   </div>
+ </div>
+
+ <div class="modal fade mt-5 pt-5 pr-3 text-right" role="dialog" id="forgetpassModel">
+  <div class="modal-dialog text-right">
+    
+    <div class="modal-content">
+      <div class="modal-header ">
+        <h3 class="modal-title">نسيت كلمه المرور</h3>
+        <div>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+         </div>
+         <br>
+
+         <div class="modal-body">
+           <div class="form-group">
+              <input type="email" name="username" class="form-control" placeholder="البريد الإلكتروني">
+           </div>
+
+            <a href=""  type="button" class="text-dark" data-toggle="modal" data-target="#forgetpassModel">سيتم إرسال رمز التحقق لبريدك الالكتروني</a>
+         </div>
+         <br>
+         <br>
+
+         <div class="modal-footer">
+          <button type="submit" class="btn LogInNow w-100">ارسال رمز التحقق</button>
+          <br>
+          <br>
+         </div>
+     </div>
+ </div>
+</div>
+
+ <div class="modal fade mt-5 pt-5 text-right" role="dialog" id="signupModel">
+  <div class="modal-dialog text-right">
+    <div class="modal-content">
+      <div class="modal-header bglogNow">
+        <h3 class="modal-title">انشاء حساب</h3>
+        <div>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+         </div>
+         <ul class="social-model-login">
+          <li><img src="img/facebookLogin.png" alt=""></li>
+          <li><img src="img/gmailLogin.png" alt=""></li>
+          <li><img src="img/gmailLogin.png" alt=""></li>
+        </ul>
+
+         <div class="modal-body">
+           <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="البريد الإلكتروني">
+          </div>
+          <div class="form-group">
+            <input type="tel" name="email" class="form-control" placeholder="رقم الجوال">
+          </div>
+
+           <div class="form-group">
+             <input type="password" name="password" class="form-control" placeholder="كلمه السر">
+           </div>
+           <div class="form-group">
+            <input type="password" name="password" class="form-control" placeholder="تاكيد كلمه السر">
+          </div>
+         </div>
+
+         <div class="modal-footer">
+           <button type="submit" class="btn LogInNow w-100">انشاء حساب </button>
+         </div>
+     </div>
+ </div>
+</div>
+
+
+<div class="slider-link-App">
+  <div class="slider-inner-app">
+     <div class="slide-links-app">
+        <a href="">اقنعه</a>
+     </div>
+     <div class="slide-links-app">
+        <a href="">اقنعه</a>
+     </div>
+     <div class="slide-links-app">
+        <a href="">اقنعه</a>
+     </div>
+     <div class="slide-links-app">
+        <a href="">اقنعه</a>
+     </div>
+     <div class="slide-links-app">
+        <a href="">اقنعه</a>
+     </div>
+     <div class="slide-links-app">
+        <a href="">اقنعه</a>
+     </div>
+     <div class="slide-links-app">
+        <a href="">اقنعه</a>
+     </div>
+  </div>
+</div>
+  
+ 
+    <script src="js/app.js"></script>
+</body>
+</html>
